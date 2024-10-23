@@ -1,7 +1,7 @@
 .PHONY: build tidy fmt
 
 build:
-	go build -o download-cwlogs main.go
+	go build -o download-cwlogs ./cmd/download-cwlogs
 
 tidy:
 	go mod tidy
